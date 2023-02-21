@@ -85,9 +85,91 @@ select {
    --light-blue: hsl(233, 100%, 69%);
    --dark-grayish-blue: hsl(210, 10%, 33%);
    --grayish-blue: hsl(201, 11%, 66%);
+   --btn-border-cyan: hsl(171, 66%, 36%);
+   --btn-border-blue: hsl(233, 100%, 65%);
+   --btn-shadow-cyan: hsla(171, 66%, 36%, 0.5);
+   --btn-shadow-blue: hsla(233, 100%, 65%, 0.5);
+}
+
+h1 {
+   color: var(--dark-grayish-blue);
+   font-size: 30px;
+   font-weight: 600px;
+   line-height: 1.2;
+}
+
+h2 {
+   color: var(--dark-grayish-blue);
+   font-size: 25px;
+   font-weight: 400px;
+}
+
+h3 {
+   color: var(--dark-grayish-blue);
+   font-size: 20px;
+   font-weight: 400px;
+}
+
+h4 {
+   color: var(--dark-grayish-blue);
+   font-size: 15px;
+   font-weight: 400px;
+}
+
+p {
+   color: var(--grayish-blue);
 }
 
 
+
+.container {
+   max-width: 1440px;
+   margin: auto;
+   overflow: hidden;
+}
+
+header {
+   background: url("images/bg-header-desktop.png") no-repeat;
+   background-size: contain;
+   padding: 130px 75px;
+   text-align: center;
+}
+
+.header-logo {
+   display: block;
+   margin: auto;
+   margin-bottom: 55px;
+}
+
+header>p {
+   max-width: 690px;
+   margin: auto;
+   text-align: center;
+   line-height: 1.5;
+   margin-bottom: 50px;
+}
+
+button {
+   color: #ffffff;
+   font-size: 12px;
+   padding: 10px 30px;
+   border: none;
+   border-radius: 20px;
+   font-weight: 600;
+
+}
+
+.btn-primary {
+   background-color: var(--strong-cyan);
+   box-shadow: 0 8px 8px -4px lightblue;
+}
+
+.btn-secondary {
+   background-color: var(--light-blue);
+   box-shadow: 0 8px 8px -4px lightblue;
+}
+
+.btn-group {}
 
 
 .attribution {
