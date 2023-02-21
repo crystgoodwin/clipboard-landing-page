@@ -141,6 +141,10 @@ header {
    margin-bottom: 55px;
 }
 
+.title-text {
+   padding-bottom: 15px;
+}
+
 header>p {
    max-width: 690px;
    margin: auto;
@@ -156,20 +160,28 @@ button {
    border: none;
    border-radius: 20px;
    font-weight: 600;
+   border-bottom: 3px solid;
 
 }
 
 .btn-primary {
    background-color: var(--strong-cyan);
-   box-shadow: 0 8px 8px -4px lightblue;
+   margin-right: 5px;
+   border-color: var(--btn-border-cyan);
+   box-shadow: 0 10px 30px -5px var(--btn-shadow-cyan);
 }
 
 .btn-secondary {
    background-color: var(--light-blue);
-   box-shadow: 0 8px 8px -4px lightblue;
+   margin-left: 5px;
+   border-color: var(--btn-border-blue);
+   box-shadow: 0 10px 30px -5px var(--btn-shadow-blue);
 }
 
-.btn-group {}
+button:hover {
+   opacity: 0.8;
+   cursor: pointer;
+}
 
 
 .attribution {
