@@ -120,12 +120,11 @@ p {
    color: var(--grayish-blue);
 }
 
-
-
 .container {
    max-width: 1440px;
    margin: auto;
    overflow: hidden;
+   padding: 0px 10px 40px 10px;
 }
 
 header {
@@ -145,7 +144,7 @@ header {
    padding-bottom: 15px;
 }
 
-header>p {
+.title-copy {
    max-width: 690px;
    margin: auto;
    text-align: center;
@@ -191,4 +190,25 @@ button:hover {
 
 .attribution a {
    color: hsl(228, 45%, 44%);
+}
+
+
+/* ======= MEDIA QUERIES ======== */
+
+@media screen and (max-width: 480px) {
+   header {
+      padding: 120px 20px 40px 20px;
+      background-image: cover;
+   }
+
+   .btn-primary,
+   .btn-secondary {
+      margin: 10px 0px 10px 0px;
+   }
+
+   button {
+      font-size: 18px;
+      padding: 10px 80px;
+      border-radius: 30px;
+   }
 }
