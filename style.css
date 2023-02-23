@@ -49,7 +49,7 @@ a:not([class]) {
 img,
 picture {
    max-width: 100%;
-   display: block;
+   /* display: block; */
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -182,18 +182,24 @@ button:hover {
    cursor: pointer;
 }
 
-.about-title {
+.about-title,
+.options-title,
+.tools-title {
    text-align: center;
    max-width: 690px;
    margin: auto;
    padding-bottom: 60px;
 }
 
-.about-title h2 {
+.about-title h2,
+.options-title h2,
+.tools-title h2 {
    padding-bottom: 20px;
 }
 
-.about-title p {
+.about-title p,
+.options-title p,
+.tools p {
    font-size: 16px;
 }
 
@@ -222,6 +228,52 @@ button:hover {
 .about-box {
    padding-bottom: 40px;
 }
+
+.options {
+   padding: 140px 10px 50px 10px;
+}
+
+.options-img {
+   text-align: center;
+}
+
+.tools-list {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 20px 50px 60px 50px;
+}
+
+.tools-box img {
+   padding-bottom: 20px;
+}
+
+.tools-box h4 {
+   padding-bottom: 10px;
+}
+
+.tools-box {
+   width: 33%;
+   text-align: center;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.clients {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 120px 100px 120px 100px;
+}
+
+.client-box {
+   width: 18%;
+   padding: 0 10px;
+}
+
+
+
+
 
 .attribution {
    font-size: 11px;
@@ -270,12 +322,36 @@ button:hover {
       font-size: 22px;
    }
 
-   .about-box p {
+   .about-box p,
+   .tools-box p {
       font-size: 18px;
    }
 
    .about-list {
       padding: 20px 0px;
+   }
+
+   .tools-list {
+      flex-direction: column;
+   }
+
+   .tools-box {
+      width: 100%;
+      padding-bottom: 60px;
+   }
+
+   .tools-box h4 {
+      font-size: 22px;
+   }
+
+   .clients {
+      flex-direction: column;
+   }
+
+   .client-box {
+      width: 100%;
+      text-align: center;
+      padding: 40px 20px;
    }
 }
 
