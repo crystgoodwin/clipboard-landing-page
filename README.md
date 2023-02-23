@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/crystgoodwin/clipboard-landing-page/blob/main/images/clipboard-landing-pg-screenshot.png)
 
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://crystgoodwin.github.io/clipboard-landing-page/)
 
 ## My process
 
